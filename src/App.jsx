@@ -21,8 +21,6 @@ function App() {
     }
   };
   const deleteBook = (e) => {
-    // console.log(list[0].id);
-    // console.log(liczba);
     const newList = list.filter((book) => book.id !== +e.target.id);
     setList(newList);
     console.log(newList);
@@ -79,4 +77,4 @@ function App() {
 
 export default App;
 
-//! jutro dodac validacje
+//! jutro dodac validacje , podzielic na komponenty
